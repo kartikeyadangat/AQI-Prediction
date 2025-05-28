@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ae55619fc9b47e1e64e02f5dedc94f44 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ae55619fc9b47e1e64e02f5dedc94f44" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ae55619fc9b47e1e64e02f5dedc94f44 = L.map(
+                "map_ae55619fc9b47e1e64e02f5dedc94f44",
+                {
+                    center: [19.076, 72.8777],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d34002120101bfbcdbd3d8208c15faa0 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_d34002120101bfbcdbd3d8208c15faa0.addTo(map_ae55619fc9b47e1e64e02f5dedc94f44);
+        
+    
+            var marker_9abb8376141c88a22aa92ed9ac6a0026 = L.marker(
+                [19.284, 72.858],
+                {
+}
+            ).addTo(map_ae55619fc9b47e1e64e02f5dedc94f44);
+        
+    
+            var icon_c91185ce30cd559e93eb11a91466ec6b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_944f6fdabff4cb920dcd19476bc8422b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0697f668c91ad0f3d75f4a9c0e4f4419 = $(`<div id="html_0697f668c91ad0f3d75f4a9c0e4f4419" style="width: 100.0%; height: 100.0%;">Borivali East, Mumbai - MPCB AQI: 122</div>`)[0];
+                popup_944f6fdabff4cb920dcd19476bc8422b.setContent(html_0697f668c91ad0f3d75f4a9c0e4f4419);
+            
+        
+
+        marker_9abb8376141c88a22aa92ed9ac6a0026.bindPopup(popup_944f6fdabff4cb920dcd19476bc8422b)
+        ;
+
+        
+    
+    
+                marker_9abb8376141c88a22aa92ed9ac6a0026.setIcon(icon_c91185ce30cd559e93eb11a91466ec6b);
+            
+    
+            var marker_14dae9ddb31b88b1cf1ad3e1e1400493 = L.marker(
+                [19.056, 72.883],
+                {
+}
+            ).addTo(map_ae55619fc9b47e1e64e02f5dedc94f44);
+        
+    
+            var icon_aba79cad5e89eb4c38e6b8919ff35006 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e40720fd4553ea8f23d4528ee86538b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2a4cb017a117d0b0c1a81251de0ef60 = $(`<div id="html_a2a4cb017a117d0b0c1a81251de0ef60" style="width: 100.0%; height: 100.0%;">Chembur, Mumbai - MPCB AQI: 61</div>`)[0];
+                popup_e40720fd4553ea8f23d4528ee86538b3.setContent(html_a2a4cb017a117d0b0c1a81251de0ef60);
+            
+        
+
+        marker_14dae9ddb31b88b1cf1ad3e1e1400493.bindPopup(popup_e40720fd4553ea8f23d4528ee86538b3)
+        ;
+
+        
+    
+    
+                marker_14dae9ddb31b88b1cf1ad3e1e1400493.setIcon(icon_aba79cad5e89eb4c38e6b8919ff35006);
+            
+    
+            var marker_8b93f94246ccebc9df771bcd3032a060 = L.marker(
+                [19.0886, 72.8656],
+                {
+}
+            ).addTo(map_ae55619fc9b47e1e64e02f5dedc94f44);
+        
+    
+            var icon_8fe183c09592c983deeb515cb638ca33 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1f0cae0f884c5b9858cc9760d58ca3be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7311b15750865a907bbc17551701ecd2 = $(`<div id="html_7311b15750865a907bbc17551701ecd2" style="width: 100.0%; height: 100.0%;">Chhatrapati Shivaji Intl. Airport (T2), Mumbai - MPCB AQI: 77</div>`)[0];
+                popup_1f0cae0f884c5b9858cc9760d58ca3be.setContent(html_7311b15750865a907bbc17551701ecd2);
+            
+        
+
+        marker_8b93f94246ccebc9df771bcd3032a060.bindPopup(popup_1f0cae0f884c5b9858cc9760d58ca3be)
+        ;
+
+        
+    
+    
+                marker_8b93f94246ccebc9df771bcd3032a060.setIcon(icon_8fe183c09592c983deeb515cb638ca33);
+            
+    
+            var marker_ba7a32a203022bcf3ad08082b2ba9b8f = L.marker(
+                [19.08, 72.85],
+                {
+}
+            ).addTo(map_ae55619fc9b47e1e64e02f5dedc94f44);
+        
+    
+            var icon_e1254a499f87adb6d06c2225a9d8822f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d4d88ea92b95a3f2c5b311f54fbfb5f8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_46db91768fbdc03569a5b47f80e19221 = $(`<div id="html_46db91768fbdc03569a5b47f80e19221" style="width: 100.0%; height: 100.0%;">Kherwadi_Bandra East, Mumbai - MPCB AQI: 80</div>`)[0];
+                popup_d4d88ea92b95a3f2c5b311f54fbfb5f8.setContent(html_46db91768fbdc03569a5b47f80e19221);
+            
+        
+
+        marker_ba7a32a203022bcf3ad08082b2ba9b8f.bindPopup(popup_d4d88ea92b95a3f2c5b311f54fbfb5f8)
+        ;
+
+        
+    
+    
+                marker_ba7a32a203022bcf3ad08082b2ba9b8f.setIcon(icon_e1254a499f87adb6d06c2225a9d8822f);
+            
+    
+            var marker_3eeb99392a0bb6f6692078b85b91e6c0 = L.marker(
+                [19.2, 72.94],
+                {
+}
+            ).addTo(map_ae55619fc9b47e1e64e02f5dedc94f44);
+        
+    
+            var icon_9c721391a32edae42e000cd2e63c9af5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d6607e73dfcc82b42615a3197df0bcd4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82fca6ed7f70ce25ea772f512d09f9ee = $(`<div id="html_82fca6ed7f70ce25ea772f512d09f9ee" style="width: 100.0%; height: 100.0%;">Khindipada-Bhandup West, Mumbai - IITM AQI: 71</div>`)[0];
+                popup_d6607e73dfcc82b42615a3197df0bcd4.setContent(html_82fca6ed7f70ce25ea772f512d09f9ee);
+            
+        
+
+        marker_3eeb99392a0bb6f6692078b85b91e6c0.bindPopup(popup_d6607e73dfcc82b42615a3197df0bcd4)
+        ;
+
+        
+    
+    
+                marker_3eeb99392a0bb6f6692078b85b91e6c0.setIcon(icon_9c721391a32edae42e000cd2e63c9af5);
+            
+    
+            var marker_e6f186339834fee25fe6df33559d29fe = L.marker(
+                [19.073, 72.876],
+                {
+}
+            ).addTo(map_ae55619fc9b47e1e64e02f5dedc94f44);
+        
+    
+            var icon_eedddbeb36876f27440f9517daa90639 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5ea5cb9708265920486a4e072fd188eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f041c498e9c201bb2b80fdcd7253d3be = $(`<div id="html_f041c498e9c201bb2b80fdcd7253d3be" style="width: 100.0%; height: 100.0%;">Kurla, Mumbai - MPCB AQI: 95</div>`)[0];
+                popup_5ea5cb9708265920486a4e072fd188eb.setContent(html_f041c498e9c201bb2b80fdcd7253d3be);
+            
+        
+
+        marker_e6f186339834fee25fe6df33559d29fe.bindPopup(popup_5ea5cb9708265920486a4e072fd188eb)
+        ;
+
+        
+    
+    
+                marker_e6f186339834fee25fe6df33559d29fe.setIcon(icon_eedddbeb36876f27440f9517daa90639);
+            
+    
+            var marker_7894bdf5d821ef2983d8192983a15573 = L.marker(
+                [19.177, 72.828],
+                {
+}
+            ).addTo(map_ae55619fc9b47e1e64e02f5dedc94f44);
+        
+    
+            var icon_dda229685ecd7f3d93567237a71c3c4c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6e0523fe8e995dd892e7f22db8c6086c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_52cb617e36dc5ef1b73f9ce608f34754 = $(`<div id="html_52cb617e36dc5ef1b73f9ce608f34754" style="width: 100.0%; height: 100.0%;">Malad West, Mumbai - IITM AQI: 84</div>`)[0];
+                popup_6e0523fe8e995dd892e7f22db8c6086c.setContent(html_52cb617e36dc5ef1b73f9ce608f34754);
+            
+        
+
+        marker_7894bdf5d821ef2983d8192983a15573.bindPopup(popup_6e0523fe8e995dd892e7f22db8c6086c)
+        ;
+
+        
+    
+    
+                marker_7894bdf5d821ef2983d8192983a15573.setIcon(icon_dda229685ecd7f3d93567237a71c3c4c);
+            
+    
+            var marker_f6ebe23bd32c986a2a827c6a6719a2ca = L.marker(
+                [18.947, 72.831],
+                {
+}
+            ).addTo(map_ae55619fc9b47e1e64e02f5dedc94f44);
+        
+    
+            var icon_5bfd5cf00572d7d16aada75583db8f65 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_17fb562a7a73f351178644bc61c7d2fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a96f51ca8866684051074dc71c2886a = $(`<div id="html_5a96f51ca8866684051074dc71c2886a" style="width: 100.0%; height: 100.0%;">Mazgaon, Mumbai - IITM AQI: 60</div>`)[0];
+                popup_17fb562a7a73f351178644bc61c7d2fe.setContent(html_5a96f51ca8866684051074dc71c2886a);
+            
+        
+
+        marker_f6ebe23bd32c986a2a827c6a6719a2ca.bindPopup(popup_17fb562a7a73f351178644bc61c7d2fe)
+        ;
+
+        
+    
+    
+                marker_f6ebe23bd32c986a2a827c6a6719a2ca.setIcon(icon_5bfd5cf00572d7d16aada75583db8f65);
+            
+    
+            var marker_4482747452f8babee5824c6c7104388c = L.marker(
+                [19.164, 72.85],
+                {
+}
+            ).addTo(map_ae55619fc9b47e1e64e02f5dedc94f44);
+        
+    
+            var icon_30c947265a3385e65a87344fd210728d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6c43db9aee253646c5e305dba5f9a7ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f9aab856e2a8e7dcbdf31dda9ff4ff8 = $(`<div id="html_1f9aab856e2a8e7dcbdf31dda9ff4ff8" style="width: 100.0%; height: 100.0%;">Mindspace-Malad West, Mumbai - MPCB AQI: 51</div>`)[0];
+                popup_6c43db9aee253646c5e305dba5f9a7ef.setContent(html_1f9aab856e2a8e7dcbdf31dda9ff4ff8);
+            
+        
+
+        marker_4482747452f8babee5824c6c7104388c.bindPopup(popup_6c43db9aee253646c5e305dba5f9a7ef)
+        ;
+
+        
+    
+    
+                marker_4482747452f8babee5824c6c7104388c.setIcon(icon_30c947265a3385e65a87344fd210728d);
+            
+    
+            var marker_204cbebab507a4867be10f10b73cdc11 = L.marker(
+                [18.936, 72.817],
+                {
+}
+            ).addTo(map_ae55619fc9b47e1e64e02f5dedc94f44);
+        
+    
+            var icon_ab74962fca56d5e49ec066193cd1cf32 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e6d35ac369996361744c1ce5988433f6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d28c53a993a801ca582e745bcbae2b89 = $(`<div id="html_d28c53a993a801ca582e745bcbae2b89" style="width: 100.0%; height: 100.0%;">Navy Nagar-Colaba, Mumbai - IITM AQI: 64</div>`)[0];
+                popup_e6d35ac369996361744c1ce5988433f6.setContent(html_d28c53a993a801ca582e745bcbae2b89);
+            
+        
+
+        marker_204cbebab507a4867be10f10b73cdc11.bindPopup(popup_e6d35ac369996361744c1ce5988433f6)
+        ;
+
+        
+    
+    
+                marker_204cbebab507a4867be10f10b73cdc11.setIcon(icon_ab74962fca56d5e49ec066193cd1cf32);
+            
+    
+            var marker_d75b7ab085ab0d31c62af8875847b1fc = L.marker(
+                [19.123, 72.911],
+                {
+}
+            ).addTo(map_ae55619fc9b47e1e64e02f5dedc94f44);
+        
+    
+            var icon_bdfec88936bd1a0aa39c175b7fe4ef7a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_97c7f25fe397fe2fcc25889d7dadb430 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_461fba6ee6395860c1cc3e06962a357c = $(`<div id="html_461fba6ee6395860c1cc3e06962a357c" style="width: 100.0%; height: 100.0%;">Powai, Mumbai - MPCB AQI: 73</div>`)[0];
+                popup_97c7f25fe397fe2fcc25889d7dadb430.setContent(html_461fba6ee6395860c1cc3e06962a357c);
+            
+        
+
+        marker_d75b7ab085ab0d31c62af8875847b1fc.bindPopup(popup_97c7f25fe397fe2fcc25889d7dadb430)
+        ;
+
+        
+    
+    
+                marker_d75b7ab085ab0d31c62af8875847b1fc.setIcon(icon_bdfec88936bd1a0aa39c175b7fe4ef7a);
+            
+    
+            var marker_bd1a63591f3c2dbfd310f584fe356442 = L.marker(
+                [19.03, 72.82],
+                {
+}
+            ).addTo(map_ae55619fc9b47e1e64e02f5dedc94f44);
+        
+    
+            var icon_1a8a6d15e38e23d2486de836d7a18b82 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6ab0cf97cb2911554a6a161523e747d1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc9580fe451bf39739631b954346d991 = $(`<div id="html_fc9580fe451bf39739631b954346d991" style="width: 100.0%; height: 100.0%;">Siddharth Nagar-Worli, Mumbai - IITM AQI: 76</div>`)[0];
+                popup_6ab0cf97cb2911554a6a161523e747d1.setContent(html_fc9580fe451bf39739631b954346d991);
+            
+        
+
+        marker_bd1a63591f3c2dbfd310f584fe356442.bindPopup(popup_6ab0cf97cb2911554a6a161523e747d1)
+        ;
+
+        
+    
+    
+                marker_bd1a63591f3c2dbfd310f584fe356442.setIcon(icon_1a8a6d15e38e23d2486de836d7a18b82);
+            
+    
+            var marker_315cb382771c638e8b5688116d916a87 = L.marker(
+                [19.43, 72.822],
+                {
+}
+            ).addTo(map_ae55619fc9b47e1e64e02f5dedc94f44);
+        
+    
+            var icon_10949ceeeb71091c35259d8d13f0ae5f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bf9fa87cc2fea617af68f38d40b0f9a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_012774a4cce815c1af7a20836d34628d = $(`<div id="html_012774a4cce815c1af7a20836d34628d" style="width: 100.0%; height: 100.0%;">Vasai West, Mumbai - MPCB AQI: 72</div>`)[0];
+                popup_bf9fa87cc2fea617af68f38d40b0f9a1.setContent(html_012774a4cce815c1af7a20836d34628d);
+            
+        
+
+        marker_315cb382771c638e8b5688116d916a87.bindPopup(popup_bf9fa87cc2fea617af68f38d40b0f9a1)
+        ;
+
+        
+    
+    
+                marker_315cb382771c638e8b5688116d916a87.setIcon(icon_10949ceeeb71091c35259d8d13f0ae5f);
+            
+    
+            var marker_4cb8d8c4c9b14c3a469bf64b9908b1c7 = L.marker(
+                [19.09, 72.847],
+                {
+}
+            ).addTo(map_ae55619fc9b47e1e64e02f5dedc94f44);
+        
+    
+            var icon_ebc110a81cc5d5a31d244b88ffec998d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2da498ae787462cd074262f1ef5945cb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_442417c090b0f5dc9e087b4f0b3f3609 = $(`<div id="html_442417c090b0f5dc9e087b4f0b3f3609" style="width: 100.0%; height: 100.0%;">Vile Parle West, Mumbai - MPCB AQI: 75</div>`)[0];
+                popup_2da498ae787462cd074262f1ef5945cb.setContent(html_442417c090b0f5dc9e087b4f0b3f3609);
+            
+        
+
+        marker_4cb8d8c4c9b14c3a469bf64b9908b1c7.bindPopup(popup_2da498ae787462cd074262f1ef5945cb)
+        ;
+
+        
+    
+    
+                marker_4cb8d8c4c9b14c3a469bf64b9908b1c7.setIcon(icon_ebc110a81cc5d5a31d244b88ffec998d);
+            
+    
+            var marker_4d36d8ffc5c3301fa4fc92b6fd4706e8 = L.marker(
+                [18.986, 72.818],
+                {
+}
+            ).addTo(map_ae55619fc9b47e1e64e02f5dedc94f44);
+        
+    
+            var icon_32a227ade16a5ebfb25218a1f0185694 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_51feb3126ea5f233db65a9e3865ff7cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_469ee63474d0dde35cd2c7718ea57db2 = $(`<div id="html_469ee63474d0dde35cd2c7718ea57db2" style="width: 100.0%; height: 100.0%;">Worli, Mumbai - MPCB AQI: 84</div>`)[0];
+                popup_51feb3126ea5f233db65a9e3865ff7cf.setContent(html_469ee63474d0dde35cd2c7718ea57db2);
+            
+        
+
+        marker_4d36d8ffc5c3301fa4fc92b6fd4706e8.bindPopup(popup_51feb3126ea5f233db65a9e3865ff7cf)
+        ;
+
+        
+    
+    
+                marker_4d36d8ffc5c3301fa4fc92b6fd4706e8.setIcon(icon_32a227ade16a5ebfb25218a1f0185694);
+            
+</script>
+</html>

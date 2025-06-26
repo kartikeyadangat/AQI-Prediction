@@ -66,7 +66,7 @@ mumbai-aqi-dashboard/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/mumbai-aqi-dashboard.git
+git clone https://github.com/kartikeyadangat/AQI-Prediction.git
 cd mumbai-aqi-dashboard
 
 # 2. Install the required packages
